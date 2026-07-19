@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // ---------- event-code ticker ----------
   const CODES = [
     ["REDM","Redemption"],["MCAL","Mandatory Call"],["PCAL","Partial Call"],["PRED","Partial Redemption"],
-    ["INTR","Interest Payment"],["CONV","Conversion"],["CONS","Consent"],["BIDS","Dutch Auction / Tender"],
-    ["TEND","Tender Offer"],["EXOF","Exchange Offer"],["BRUP","Bankruptcy"],["MRGR","Merger"],
-    ["EXTM","Early Termination"],["DFLT","Default"],["DVCA","Cash Dividend"],["BPUT","Put Redemption"],
+    ["INTR","Interest Payment"],["CONV","Conversion"],["CONS","Consent"],["BIDS","Repurchase Offer/Issuer Bid"],
+    ["TEND","Tender/Acquisition/Takeover/Purchase Offer"],["EXOF","Exchange Offer"],["BRUP","Bankruptcy"],["MRGR","Merger"],
+    ["EXTM","Extension of Maturity"],["DFLT","Default"],["DVCA","Cash Dividend"],["BPUT","Put Redemption"],
     ["DSCL","Disclosure"],["CHAN","Change"],["NEWM","New Announcement"],["REPL","Replacement"],
     ["WITH","Withdrawal"],["CANC","Cancellation"]
   ];
